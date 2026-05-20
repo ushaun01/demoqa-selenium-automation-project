@@ -10,6 +10,8 @@ This is a Python Selenium automation framework project for DemoQA that demonstra
 - Page Object Model (POM) structure
 
 - Data-driven testing using Excel files
+  
+---
 
 Automated sections:
 
@@ -18,6 +20,7 @@ Elements → Text Box
 Forms → Practice Form
 
 Widgets → Slider
+
 ---
 
 📂 Project Structure

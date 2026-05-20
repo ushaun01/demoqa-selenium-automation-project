@@ -117,7 +117,7 @@ Stored in test_data/test_data.xlsx
 1. Clone the repository
 
 ```bash
-git clone <repository_link>
+git clone https://github.com/ushaun01/demoqa-selenium-automation-project.git
 ```
 
 2. Navigate to project folder

@@ -1,5 +1,4 @@
 
-
 📖 Overview
 
 This is a Python Selenium automation framework project for DemoQA that demonstrates: 
@@ -19,49 +18,32 @@ Elements → Text Box
 Forms → Practice Form
 
 Widgets → Slider
+---
 
 📂 Project Structure
-
+```bash
 DemoQA-
-
 │
-
 ├─ test_data/ 📄 Excel test data
-
 │ └─ test_data.xlsx
-
 │
-
 ├─ pages/ 🏷️ Page Object Models
-
 │ ├─ elements_page.py # Text Box
-
 │ ├─ forms_page.py # Form
-
 │ └─ widgets_page.py # Slider
-
 │
-
 ├─ test_cases/ 🧪 Test scripts
-
 │ ├─ test_elements_page.py
-
 │ ├─ test_forms_page.py
-
 │ └─ test_widgets_page.py
-
 │
-
 ├─ utilities/ ⚙️ Helper functions
-
 │ └─ read_excel.py
-
 │
-
 ├─ conftest.py 🔧 PyTest setup
-
 └─ README.md 📝 Documentation
-
+```
+---
 🛠️ Tools and Technologies
 
 | Category | Tool / Technology | Purpose |
@@ -85,7 +67,7 @@ DemoQA-
 | Version Control | Git & GitHub 🔗 | Source code management and hosting |
 
 | Reporting | pytest-html 📊 | HTML reports for test execution |
-
+---
 📝 Test Data
 
 Stored in test_data/test_data.xlsx
@@ -97,19 +79,19 @@ Stored in test_data/test_data.xlsx
 | Alice Tester | alice@test.com   | 123 Main St     | 456 Demo Ave      |
 
 | Bob Example  | bob@example.com  | 789 Test Rd     | 101 QA Street     |
-
+---
 ✏️ Elements
 
 | full_name | email | current_address | permanent_address |
-
+---
 🗂️ Forms
 
 | first_name | last_name | email | mobile |
-
+---
 🎚️ Slider
 
 | offset |
-
+---
 ▶️ How to Run the Project
 
 
@@ -143,7 +125,7 @@ pytest -v
 ```bash
 pytest --html=Reports/report.html
 ```
-
+---
 📊 Test Execution Summary
 
 | Test Module | Description | Status | Remarks|
@@ -155,6 +137,7 @@ pytest --html=Reports/report.html
 | 🗂️ Forms | Fills out and submits the DemoQA practice form using Excel-driven input | ✅ Passed | Form fields populated and submitted successfully |
 
 | 🎚️ Widgets | Moves slider to given offset values and verifies slider value | ✅ Passed | Slider moved to target offset successfully |
+---
 
 🧾 Summary Report:
 
@@ -166,16 +149,17 @@ Failed: 0 ❌
 
 Skipped: 0 ⏭️
 
-Overall Result: 🟢 All test cases passed successfully
+Overall Result: 🟢 All test cases passed successfull
+---
 
 ✍️ Author
 
 👩‍💻 Usha Nazare
-
+---
  📌 Project Type
  
 Practice Project
-
+---
  👩‍💻 Profile
  
 Python Selenium Automation Tester  

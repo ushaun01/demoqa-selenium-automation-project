@@ -70,6 +70,7 @@ DemoQA-
 | Version Control | Git & GitHub 🔗 | Source code management and hosting |
 
 | Reporting | pytest-html 📊 | HTML reports for test execution |
+
 ---
 📝 Test Data
 
@@ -82,18 +83,22 @@ Stored in test_data/test_data.xlsx
 | Alice Tester | alice@test.com   | 123 Main St     | 456 Demo Ave      |
 
 | Bob Example  | bob@example.com  | 789 Test Rd     | 101 QA Street     |
+
 ---
 ✏️ Elements
 
 | full_name | email | current_address | permanent_address |
+
 ---
 🗂️ Forms
 
 | first_name | last_name | email | mobile |
+
 ---
 🎚️ Slider
 
 | offset |
+
 ---
 ▶️ How to Run the Project
 
@@ -140,6 +145,7 @@ pytest --html=Reports/report.html
 | 🗂️ Forms | Fills out and submits the DemoQA practice form using Excel-driven input | ✅ Passed | Form fields populated and submitted successfully |
 
 | 🎚️ Widgets | Moves slider to given offset values and verifies slider value | ✅ Passed | Slider moved to target offset successfully |
+
 ---
 
 🧾 Summary Report:
@@ -153,15 +159,18 @@ Failed: 0 ❌
 Skipped: 0 ⏭️
 
 Overall Result: 🟢 All test cases passed successfull
+
 ---
 
 ✍️ Author
 
 👩‍💻 Usha Nazare
+
 ---
  📌 Project Type
  
 Practice Project
+
 ---
  👩‍💻 Profile
  
